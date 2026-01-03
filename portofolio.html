@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>new portofolio</title>
-    <nav>
-        <nav class="nav-bar">
-            <ul>
-                <li>
-                    <p>Home</p>
-                </li>
-                <li>
-                    <p>
-                        Portofolio
-                    </p>
-                </li>
-            </ul>
-        </nav>
-        <nav class="nav-logo">
-            <img src="./img/logo elfan.png">
-        </nav>
-    </nav>
-    <h1>WELCOME TO MY PORTOFOLIO!</h1>
+
     <link rel="stylesheet" href="./css/portofolio.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">Syamilah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Portofolio</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+</nav>
 <div class="hero-text">
     <p>Halo! Saya Rif'ah Syamilah, seorang Mahasiswi dari Kampus Elfan AI Academy (EAA) yang sedang belajar untuk membuat website berisi portofolio sederhana.</p>
 </div>
 <div>
     <section class="container">
-<div class="isi portofolio">
+<div class="content">
     <ol>
     <li>
         <h2>Nama:</h2>
@@ -46,10 +48,10 @@
         <P>Kuliah cepat di Kampus Elfan AI Academy yang fokus di bidang IT berbasis AI</P>
     </li>
     </ol>
+    <h2 class="section-title">RIWAYAT PENDIDIKAN</h2>
     <section class="tabel">
-        <div class="tabel">
-        <table>
-            <h2>RIWAYAT PENDIDIKAN</h2>
+        <div class="table-container">
+        <table class="table table-hover skill-table">
 <tr>
     <th>TK</th>
     <th>SD</th>
@@ -62,7 +64,7 @@
     <td>SMP Islam Al-Umm</td>
     <td>MA Al-Umm</td>
 </tr>
-</table>
+        </table>
 </div>
 </section>
 </div>  
