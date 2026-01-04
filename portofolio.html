@@ -6,83 +6,80 @@
     <title>new portofolio</title>
 
     <link rel="stylesheet" href="./css/portofolio.css">
-    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
-</head>
+    
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">Syamilah</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Portofolio</a>
-        </li>
-        </ul>
+<section class="nav-bar">
+    <nav class="navbar">
+        <a href="#hero" class="tab active">HOME</a>
+        <a href="#container" class="tab">PORTOFOLIO</a>
+        <a href="#form" class="tab">CONTACT US</a>
+    </nav>
+</section>
+
+<section class="hero">
+    <div class="hero-image">
+        <img src="./img/mawar hitam.png" alt="mawar">
     </div>
+
+    <div class="hero-text">
+        <p>Halo! Saya Rif'ah Syamilah, seorang Mahasiswi dari Kampus Elfan AI Academy (EAA) yang sedang belajar untuk membuat website berisi portofolio sederhana.</p>
     </div>
-</nav>
-<div class="hero-text">
-    <p>Halo! Saya Rif'ah Syamilah, seorang Mahasiswi dari Kampus Elfan AI Academy (EAA) yang sedang belajar untuk membuat website berisi portofolio sederhana.</p>
-</div>
+</section>
+
 <div>
     <section class="container">
-<div class="content">
+<div class="card">
     <ol>
-    <li>
-        <h2>Nama:</h2>
-        <p>Rif'ah Syamilah</p>
-    </li>
-    <li>
-        <h2>TTL:</h2>
-        <p>Pasuruan, 2006</p>
-    </li>
-    <h2></h2>
-    <li>
-        <h2>PENDIDIKAN YANG SEDANG DIJALANI:</h2>
-        <P>Kuliah cepat di Kampus Elfan AI Academy yang fokus di bidang IT berbasis AI</P>
-    </li>
+        <li class="item">
+            <span class="label"><h2>Nama</h2></span>
+            <span class="value"><p>Rif'ah Syamilah</p></span>
+        </li>
+        <li class="item">
+            <span class="label"><h2>TTL</h2></span>
+            <span class="value"><p>Pasuruan, 2006</p></span>
+        </li>
+        <li class="item">
+            <span class="label"><h2>PENDIDIKAN YANG SEDANG DIJALANI</h2></span>
+            <span class="value"><P>Kuliah cepat di Kampus Elfan AI Academy yang fokus di bidang IT berbasis AI</P></span>
+        </li>
     </ol>
-    <h2 class="section-title">RIWAYAT PENDIDIKAN</h2>
-    <section class="tabel">
-        <div class="table-container">
-        <table class="table table-hover skill-table">
-<tr>
-    <th>TK</th>
-    <th>SD</th>
-    <th>SMP</th>
-    <th>SMA</th>
-</tr>
-<tr>
-    <td>R.A Nurul Huda</td>
-    <td>SD Islam Al-Umm</td>
-    <td>SMP Islam Al-Umm</td>
-    <td>MA Al-Umm</td>
-</tr>
-        </table>
 </div>
 </section>
-</div>  
-</section>
-<section class="form">
-    <form>
-    <div>
-        <div class="input">
-    <p>Kontak Saya</p>
-    </div>
-<label for="name">Nama:</label><br>
-<input type="text" id="name" name="name"><br>
-<label for="email">e-mail:</label><br>
-<input type="text" id="email" name="email">
-<br>
-<input type="button" value="kirim">
-</form>
-</section>
-    </div>
-</body>
+<h2 class="section-title">RIWAYAT PENDIDIKAN</h2>
+    <section class="tabel">
+        <div class="table-container">
+            <table class="table table-hover skill-table">
+            <tr>
+                <span class="label"><th>TK</th></span>
+                <span class="label"><th>SD</th></span>
+                <span class="label"><th>SMP</th></span>
+                <span class="label"><th>SMA</th></span>
+            </tr>
+            <tr>
+                <span class="label"><td>R.A Nurul Huda</td></span>
+                <span class="label"><td>SD Islam Al-Umm</td></span>
+                <span class="label"><td>SMP Islam Al-Umm</td></span>
+                <span class="label"><td>MA Al-Umm</td>
+            </tr>
+                </span>
+            </table>
+        </div>
+    </section>
+
+        <section class="form">
+            <form>
+                <div>
+                <div class="input">
+                    <p>Kontak Saya</p>
+                </div>
+                    <label for="name">Nama:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">e-mail:</label><br>
+                    <input type="text" id="email" name="email">
+                        <br>
+                        <input type="button" value="kirim">
+                </div>
+            </form>
+        </section>
+    </body>
 </html>
